@@ -581,6 +581,7 @@ grid-template-rows: repeat(2, 250px);
 
 .pricing {
   padding: 20px 80px;
+
 }
 
 .pricing h2 {
@@ -588,12 +589,15 @@ grid-template-rows: repeat(2, 250px);
 }
 
 .pricing-content {
-  padding: 2.5rem 0 2rem;
+
+  padding: 2.5rem 80px 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
   text-align: center;
 }
+
+
 
 .pricing-card {
   border: 1px solid rgb(60, 59, 59);
