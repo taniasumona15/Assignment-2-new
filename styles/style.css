@@ -563,10 +563,38 @@ grid-template-rows: repeat(2, 250px);
 
 
 
+/* bmi starts */
+
+.bmi{
+padding: 20px 80px;
+
+
+
+}
+
+
+.bmi-content{
+  padding: 20px 80px;
+
+  margin: 0 auto;
+  width: 50%;
+  
+  
+
+
+}
 
 
 
 
+.bmi-content p{
+  text-align: start;
+  line-height: 2rem;
+  width: 100%;
+}
+
+
+/* bmi ends */
 
 
 
