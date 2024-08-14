@@ -565,15 +565,12 @@ grid-template-rows: repeat(2, 250px);
 
 /* bmi starts */
 
-.bmi{
-padding: 20px 80px;
-
-
-
+.bmi-content-header{
+  padding: 20px 80px;
 }
 
-
 .bmi-content{
+
   margin-top: 1rem;
   display: flex;
   justify-content: center;
@@ -581,29 +578,155 @@ padding: 20px 80px;
   flex-direction: column;
 }
 
-.heading{
-  color: rgb(255, 255, 255);
-  font-size: 48px;
-  font-weight: 900;
+.bmi-title{
   width: 60%;
-  
 }
 
-
-
 .bmi-content p{
-  color: rgb(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
   text-align: start;
 }
 
 
+.bmi{
+
+  background: rgb(34, 34, 34);
+
+  padding: 40px 80px;
+  display: flex;
+  justify-content:space-between;
+margin-bottom: 1.5rem;
+}
+
+.bmi-table{
+  width: 50%;
+}
+
+
+.bmi-table h3, .bmi-form-content h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.bmi-table table{
+  border-collapse: collapse;
+}
+
+thead, tbody, th, td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+  text-align: start;
+  
+}
+
+.table-head tr th{
+  color: #fff;
+  font-weight: 500;
+}
+
+tbody tr td{
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 200;
+}
+
+
+.bmi-form{
+  width: 50%
+}
+
+.bmi-form-content p{
+  width: 90%;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.height-weight{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.height, .weight{
+width: 50%;
+padding: 10px ;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 5px;
+border: none;
+}
+
+.height::placeholder, .weight::placeholder{
+  color: rgb(141, 134, 134);
+}
+
+.height:focus, .weight:focus{
+  outline: none;
+}
+
+.age-sex{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.age{
+  width: 47%;
+padding: 10px ;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 5px;
+border: none;
+}
+
+.sex{
+  width: 50%;
+  padding: 10px ;
+  
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: none;
+  color: rgb(141, 134, 134);
+}
+
+.age::placeholder{
+  color: rgb(141, 134, 134);
+}
+
+
+
+.age:focus, .sex:focus{
+  outline: none;
+}
+
+.form-activity{
+  margin-bottom: 2rem;
+
+}
+
+.activity{
+  width:100%;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: none;
+  color: rgb(141, 134, 134);
+}
+
+
+
+.activity:focus{
+  outline: none;
+}
+  
+
+
 /* bmi ends */
-
-
-
-
 
 
 
@@ -623,7 +746,7 @@ padding: 20px 80px;
 
 .pricing-content {
 
-  padding: 2.5rem 80px 2rem;
+  /* padding: 2.5rem 80px 2rem; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
@@ -1019,7 +1142,58 @@ width: 60%;}
 
 
 
+.bmi-content-header{
+  padding: 20px;
+}
 
+
+.bmi-content{
+
+  justify-content: start;
+  align-items: start;
+ 
+}
+
+.bmi-title{
+  width: 100%;
+}
+
+.bmi-content p{
+  text-align: start;
+  width: 90%;
+}
+
+.bmi{
+  padding: 40px 20px;
+}
+
+
+
+
+
+.bmi{
+  flex-direction: column;
+  gap: 3rem;
+}
+
+
+
+.bmi-table{
+  width: 100%;
+}
+
+
+.bmi-form{
+  width: 100%;
+}
+
+
+
+
+
+.activity{
+width: 100%;
+}
 
 
 
@@ -1028,8 +1202,6 @@ width: 60%;}
   }
 
   .pricing-content {
-    padding: 2.5rem 0 2rem;
-
     grid-template-columns: repeat(1, 1fr);
   }
 
