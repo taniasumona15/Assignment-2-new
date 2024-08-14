@@ -574,23 +574,28 @@ padding: 20px 80px;
 
 
 .bmi-content{
-  padding: 20px 80px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  margin: 0 auto;
-  width: 50%;
+.heading{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  width: 60%;
   
-  
-
-
 }
 
 
 
-
 .bmi-content p{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
   text-align: start;
-  line-height: 2rem;
-  width: 100%;
 }
 
 
