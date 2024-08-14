@@ -725,6 +725,11 @@ border: none;
 }
   
 
+.btn-calc{
+  padding: 13px 80px;
+
+}
+
 
 /* bmi ends */
 
@@ -1194,6 +1199,13 @@ width: 60%;}
 .activity{
 width: 100%;
 }
+
+
+.btn-calc{
+  padding: 13px 80px;
+
+}
+
 
 
 
